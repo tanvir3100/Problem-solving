@@ -60,5 +60,9 @@ console.log(!true);
 
 // Comments
 // This is a single line comment
-/* This is a sample multiline comment and a tutorial
+/* 
+This is a sample 
+multiline 
+comment 
+and a tutorial
  */
