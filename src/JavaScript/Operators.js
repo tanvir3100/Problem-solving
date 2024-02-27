@@ -1,6 +1,17 @@
 // 77;
 // "Harry bhai"
 // false
+
+
+
+// Operators in JS
+/**
+7+8 = 15
+(7 or 8 are the operands)
+(+ is the operator)
+(15 is the  result)
+*/
+
 console.log("Operators in Js");
 // Arithmetic Operators
 let a = 10;
@@ -50,5 +61,4 @@ console.log(!true);
 // Comments
 // This is a single line comment
 /* This is a sample multiline comment and a tutorial
-from 
-codewithharry */
+ */
