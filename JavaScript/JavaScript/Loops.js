@@ -20,13 +20,13 @@
 
   3. Array.from
   -----This allows you to convert a string collection into an array-----
-  let name = "Harry"
+  let name = "tanvir"
   let arr = Array.from(name);
   console.log(arr)
 
-  Answer: 'H', 'a', 'r', 'r', 'y';
+  Answer: 'T', 'a', 'n', 'v', 'r', 'r';
 
-
+  
   4.for......of
    * const sum = [5, 3, 2, 1, 7];
 
