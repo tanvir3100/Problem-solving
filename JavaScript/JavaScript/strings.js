@@ -3,6 +3,8 @@ String is a primitive data type.
 String is a collection of charachters.
 string is use for manuipulating text.
 
+-----------String is a immutable----------------------
+//string is immutable tha's why we can't change the string but you can make a new string
 */
 
 let name = "Tanvir";
