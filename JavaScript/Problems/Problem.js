@@ -48,22 +48,35 @@ Return the letter that was added to t.
  * @param {string} t
  * @return {character}
  */
+// * @param {string} s
+// * @param {string} t
+// * @return {character}
+// */
 var findTheDifference = function (s, t) {
-    let added = ''
-    let sToString = ''
-    let tToString = ''
-    for (let a of s) {
-        sToString = a
-    }
-    for (let b of t) {
-        tToString = b
-    }
-    for (let i = 0; i < tToString.length; i++) {
-        if (sToString.indexOf(tToString[i]) === -1) {
-            added = tToString[i];
-            break;
-        }
-    }
+   for (let letter of s)
+   t = t.replace(letter, '');
+   return t;
+};
 
-    return added;
-}
+
+/**
+ * Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+ * 
+*/
+
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+var strStr = function(haystack, needle) {
+    if(needle === ''){
+        return 0
+    }
+    for (let i =0; i <= haystack.length - needle.length; i++) {
+      if (haystack.substring(i, i + needle.length) === needle) {
+          return i;
+      }
+  }
+  return -1;
+};
